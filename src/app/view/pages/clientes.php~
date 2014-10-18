@@ -1,0 +1,8 @@
+<?php
+
+use CandidoSouza\Classes\Databases\Connect;
+use CandidoSouza\Classes\Databases\Crud;
+
+
+$clientes = new Crud(Connect::getDb());
+$dados =  $clientes->read();

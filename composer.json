@@ -1,0 +1,14 @@
+{
+	"name" : "Code Education",
+	"authors" : [
+        {
+			"name" : "Cristiano",
+			"email" : "teste@teste.com"
+		}
+	],
+	"autoload" : {
+		"psr-0" : {
+		    "" : "src/"
+		}
+	}
+}
